@@ -26,13 +26,11 @@ curl -vks -X POST -d '{"action": "run", "value": "echo hello world"}' http://exa
 ```
 
 # FAQ
-**Q:** Is it safe?
+*  **Q:** Is it safe?  
+ **A:** I don't think so. Pretty sure there are some ways to bypass command filter and run `rm -rf`.  
 
-**A:** I don't think so. Pretty sure there are some ways to bypass command filter and run `rm -rf`. 
 
-
-**Q:** How can I use it?
-
-**A:** I don't know. Just don't do anything nasty. Or do - I don't care, to be honest.
+* **Q:** How can I use it?  
+ **A:** I don't know. Just don't do anything nasty. Or do - I don't care, to be honest.
 
 
