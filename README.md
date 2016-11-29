@@ -6,6 +6,8 @@ Simple web shell (i.e. tool for executing shell commands on remote hosts) with c
 remote client are announcing their presence to server that have simple REST API to run commands on
 specified host. 
 
+# Requirements
+Server uses tornado, so you should install it with pip or distro's package manager. Client uses only python-requests. 
 
 # Usage
 Start server:
@@ -24,11 +26,13 @@ curl -vks -X POST -d '{"action": "run", "value": "echo hello world"}' http://exa
 ```
 
 # FAQ
-*Q:* Is it safe?
-*A:* I don't think so. Pretty sure there are some ways to bypass command filter and run `rm -rf`. 
+**Q:** Is it safe?
+
+**A:** I don't think so. Pretty sure there are some ways to bypass command filter and run `rm -rf`. 
 
 
-*Q:* How can I use it?
-*A:* I don't know. Just don't do anything nasty. Or do - I don't care, to be honest.
+**Q:** How can I use it?
+
+**A:** I don't know. Just don't do anything nasty. Or do - I don't care, to be honest.
 
 
