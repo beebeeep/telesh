@@ -27,7 +27,7 @@ curl -vks -X POST -d '{"action": "run", "value": "echo hello world"}' http://exa
 
 # FAQ
 *  **Q:** Is it safe?  
- **A:** I don't think so. Pretty sure there are some ways to bypass command filter and run `rm -rf`.  
+ **A:** It's not. Server requests are not authenticated, also I'm pretty sure there are some ways to bypass command filter and run `rm -rf`.  
 
 
 * **Q:** How can I use it?  
